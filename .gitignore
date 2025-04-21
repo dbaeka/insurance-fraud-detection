@@ -1,0 +1,6 @@
+.idea
+*.log
+*.iml
+*.class
+pytest_cache
+__pycache__
