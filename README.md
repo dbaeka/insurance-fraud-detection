@@ -1,7 +1,8 @@
-# Insurance Fraud Detection
+# Mobile Money Fraud Detection
 
-This repository contains a PCA and machine learning project focused on detecting insurance fraud using various algorithms. The
-project is designed to provide insights into the effectiveness of different models in identifying fraudulent claims.
+This repository contains a PCA and machine learning project focused on detecting mobile money transaction fraud using
+various algorithms. The project is designed to provide insights into the effectiveness of different models in
+identifying fraudulent transactions.
 
 ## Project Overview
 
@@ -39,25 +40,25 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The dataset used in this project is a synthetic insurance claims dataset. It contains various features related to
-insurance claims, including policyholder information, claim details, and whether the claim was fraudulent or not. The
-dataset is available in the `data` directory.
+The dataset used in this project is a synthetic mobile money dataset from Mendeley. It contains various features related
+to mobile money transactions, including amount, transaction type, and whether the transaction was fraudulent or not. The
+dataset is available in the `data` directory when loaded.
 
 ## Project Structure
 
 ```plaintext
-insurance-fraud-detection/
+mobile-money-fraud-detection/
 ├── data/
-│   ├── insurance_fraud_detection
-│       ├── Worksheet in Case Study question 2.xlsx
-├── Insurance Fraud Analysis.ipnyb
+│   ├── Synthetic Mobile Money Transaction Dataset
+│       ├── synthetic_mobile_money_transaction_dataset.csv
+├── Mobile Money Fraud Detection.ipnyb
 ├── requirements.txt
 ├── README.md
 ```
 
 ## Usage
 
-To run the project, open the `Insurance Fraud Analysis.ipynb` notebook in Jupyter Notebook or any compatible IDE. The
-notebook contains all the code for data preprocessing, model training, evaluation, and visualization. You can run each
-cell step by step to see the results.
+To run the project, open the `Mobile Money Fraud Detection.ipynb` notebook in Jupyter Notebook or any compatible IDE.
+The notebook contains all the code for data preprocessing, model training, evaluation, and visualization. You can run
+each cell step by step to see the results.
 
